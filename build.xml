@@ -22,6 +22,8 @@
 
 <property name="sonar.projectVersion" value="1.0" />
 
+<property name="sonar.projectBaseDir" value="C:/Users/anshikaanik/.jenkins/jobs/Git-Integ/workspace/src" />
+
 <property name="sonar.sources" value="D:/IBM/Eclipse/workspacelocal/AntExample/src" />
 
 <property name="sonar.java.binaries" value="D:/IBM/Eclipse/workspacelocal/AntExample/build" />
