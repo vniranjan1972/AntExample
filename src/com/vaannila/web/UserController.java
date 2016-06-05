@@ -22,7 +22,8 @@ public class UserController extends SimpleFormController {
 
 	@Override
 	protected ModelAndView onSubmit(Object command) throws Exception {
-		User user = (User) command;
+	System.out.println("Sonar error");		
+	User user = (User) command;
 		userService.add(user);
 		return new ModelAndView("userSuccess","user",user);
 	}
