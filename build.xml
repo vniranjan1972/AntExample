@@ -8,6 +8,29 @@
 			<include name="*.jar"/>
 		</fileset>
 	</path>
+
+	<!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
+
+<property name="sonar.host.url" value="http://localhost:9000" />
+ 
+
+<!-- Define the SonarQube project properties -->
+
+<property name="sonar.projectKey" value="Sonar Ant Project" />
+
+<property name="sonar.projectName" value="Simple Java Project analyzed with the SonarQube Ant Task" />
+
+<property name="sonar.projectVersion" value="1.0" />
+
+<property name="sonar.sources" value="D:/IBM/Eclipse/workspacelocal/AntExample/src" />
+
+<property name="sonar.java.binaries" value="D:/IBM/Eclipse/workspacelocal/AntExample/build" />
+
+<property name="sonar.java.libraries" value="D:/Sonar/sonar-scanner-2.6.1/sonar-scanner-2.6.1/lib/*.jar" />
+
+
+
+
 	
 	<target name="init" depends="clean">
 		<echo>Entering the init task.......</echo>
@@ -42,28 +65,6 @@
                           <fileset dir="dist"/>
                            </copy> 
             </target>
-<project name="Sonar Ant Project" default="all" basedir="." xmlns:sonar="antlib:org.sonar.ant">
-
-
-<!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
-
-<property name="sonar.host.url" value="http://localhost:9000" />
- 
-
-<!-- Define the SonarQube project properties -->
-
-<property name="sonar.projectKey" value="Sonar Ant Project" />
-
-<property name="sonar.projectName" value="Simple Java Project analyzed with the SonarQube Ant Task" />
-
-<property name="sonar.projectVersion" value="1.0" />
-
-<property name="sonar.sources" value="D:/IBM/Eclipse/workspacelocal/AntExample/src" />
-
-<property name="sonar.java.binaries" value="D:/IBM/Eclipse/workspacelocal/AntExample/build" />
-
-<property name="sonar.java.libraries" value="D:/Sonar/sonar-scanner-2.6.1/sonar-scanner-2.6.1/lib/*.jar" />
-
 
 <!-- Define the SonarQube target -->
 
