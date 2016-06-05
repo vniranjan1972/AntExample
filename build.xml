@@ -1,5 +1,5 @@
 <?xml version="1.0" ?> 
-<project name="AntExample3" default="deploy">
+<project name="AntExample3" default="deploy" xmlns:sonar="antlib:org.sonar.ant">
 	
 	<property file="build.properties" />
 
