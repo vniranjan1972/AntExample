@@ -1,5 +1,5 @@
 projectKey=SonarAntProject
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/SonarAntProject
-ceTaskId=AVUfCV5sT1-_Xo2zxwfo
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVUfCV5sT1-_Xo2zxwfo
+ceTaskId=AVUfCt7CT1-_Xo2zxwfp
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVUfCt7CT1-_Xo2zxwfp
