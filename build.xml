@@ -24,7 +24,7 @@
 
 <property name="sonar.projectBaseDir" value="D:/IBM/Eclipse/workspacelocal/AntExample/src" />
 
-<property name="sonar.inclusions" value="src/com/vaanila/**" />
+<property name="sonar.exclusions" value="src/com/vaanila/**" />
 
 <property name="sonar.sources" value="D:/IBM/Eclipse/workspacelocal/AntExample/src" />
 
