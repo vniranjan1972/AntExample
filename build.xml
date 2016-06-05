@@ -16,7 +16,7 @@
 
 <!-- Define the SonarQube project properties -->
 
-<property name="sonar.projectKey" value="Sonar Ant Project" />
+<property name="sonar.projectKey" value="SonarAntProject" />
 
 <property name="sonar.projectName" value="Simple Java Project analyzed with the SonarQube Ant Task" />
 
